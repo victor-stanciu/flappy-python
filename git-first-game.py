@@ -54,10 +54,10 @@ while running:
     player_x = max(0, min(player_x, 800 - player_size))
     player_y = max(0, min(player_y, 600 - player_size))
 
-    
+    # How to make it display only one time per second?    
     print(f'X: {int(player_x)}, Y: {int(player_y)}')
 
-
+    #hello
 
     screen.fill((30, 130, 130))
     pygame.draw.rect(screen, "Green", (player_x, player_y, player_size, player_size))
